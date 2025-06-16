@@ -43,6 +43,8 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtimeCompose)
+            // navigation
+            implementation(libs.compose.navigatiom)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
